@@ -1,0 +1,786 @@
+# Copyright (C) 2025 revolutionwp
+# This file is distributed under the GNU General Prefer License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Phone Accessories Store 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/phone-accessories-store\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-08T18:14:15+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: phone-accessories-store\n"
+
+#. Theme Name of the theme
+#: style.css
+#: patterns/footer-default.php:112
+msgid "Phone Accessories Store"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.revolutionwp.com/products/phone-accessories-store"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "revolutionwp"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.revolutionwp.com/"
+msgstr ""
+
+#: inc/block-patterns.php:33
+msgid "Default header"
+msgstr ""
+
+#: inc/block-patterns.php:38
+msgid "Default footer"
+msgstr ""
+
+#: inc/block-patterns.php:43
+msgid "Home Banner"
+msgstr ""
+
+#: inc/block-patterns.php:47
+#: inc/block-patterns.php:108
+msgid "Gallery Sections"
+msgstr ""
+
+#: inc/block-patterns.php:51
+msgid "Product Sections"
+msgstr ""
+
+#: inc/block-patterns.php:55
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/block-patterns.php:59
+msgid "404 content"
+msgstr ""
+
+#: inc/block-patterns.php:63
+msgid "Post Single Column"
+msgstr ""
+
+#: inc/block-patterns.php:68
+msgid "Post Two Column"
+msgstr ""
+
+#: inc/block-patterns.php:73
+msgid "Post Three Column"
+msgstr ""
+
+#: inc/block-patterns.php:78
+msgid "Post Four Column"
+msgstr ""
+
+#: inc/block-patterns.php:83
+msgid "Feature Post Column"
+msgstr ""
+
+#: inc/block-patterns.php:88
+msgid "Comment Section 1"
+msgstr ""
+
+#: inc/block-patterns.php:92
+msgid "Cover With Post Title"
+msgstr ""
+
+#: inc/block-patterns.php:96
+msgid "Theme Button"
+msgstr ""
+
+#: inc/block-patterns.php:102
+msgid "Footers"
+msgstr ""
+
+#: inc/block-patterns.php:103
+msgid "Headers"
+msgstr ""
+
+#: inc/block-patterns.php:104
+#: patterns/primary-sidebar.php:27
+msgid "Pages"
+msgstr ""
+
+#: inc/block-patterns.php:105
+msgid "Query"
+msgstr ""
+
+#: inc/block-patterns.php:106
+msgid "Sidebars"
+msgstr ""
+
+#: inc/block-patterns.php:107
+msgid "Banner Sections"
+msgstr ""
+
+#: inc/block-patterns.php:109
+msgid "Product Section"
+msgstr ""
+
+#: inc/block-patterns.php:110
+msgid "Comment Sections"
+msgstr ""
+
+#: inc/block-patterns.php:111
+msgid "Theme Button Sections"
+msgstr ""
+
+#: patterns/comment-section-1.php
+msgctxt "Pattern title"
+msgid "Comment Section 1"
+msgstr ""
+
+#: patterns/cover-with-archive-title.php
+#: patterns/cover-with-index-title.php
+msgctxt "Pattern title"
+msgid "Cover With archive Title"
+msgstr ""
+
+#: patterns/cover-with-index-title.php:12
+msgid "BLOG"
+msgstr ""
+
+#: patterns/cover-with-post-title.php
+msgctxt "Pattern title"
+msgid "Cover With Post Title"
+msgstr ""
+
+#: patterns/feature-post-column.php
+msgctxt "Pattern title"
+msgid "Feature Post Column"
+msgstr ""
+
+#: patterns/feature-post-column.php:46
+msgid "Popular News"
+msgstr ""
+
+#: patterns/feature-post-column.php:101
+msgid ""
+"Life Is Either A Daring Adventure Or Nothing At\n"
+"\t\t\t\t\t\t\tAll"
+msgstr ""
+
+#: patterns/feature-post-column.php:151
+msgid "Recent News"
+msgstr ""
+
+#: patterns/footer-default.php
+msgctxt "Pattern title"
+msgid "Footer Default"
+msgstr ""
+
+#: patterns/footer-default.php:14
+#: patterns/footer-default.php:40
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer-default.php:18
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+msgstr ""
+
+#: patterns/footer-default.php:36
+msgid "Useful Links"
+msgstr ""
+
+#: patterns/footer-default.php:44
+msgid "Our Team"
+msgstr ""
+
+#: patterns/footer-default.php:48
+msgid "Projects"
+msgstr ""
+
+#: patterns/footer-default.php:52
+#: patterns/gallery-section.php:53
+msgid "Support"
+msgstr ""
+
+#: patterns/footer-default.php:56
+msgid "Blogs"
+msgstr ""
+
+#: patterns/footer-default.php:60
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer-default.php:66
+#: patterns/product-sidebar.php:21
+msgid "Categories"
+msgstr ""
+
+#: patterns/footer-default.php:70
+msgid "Headphones"
+msgstr ""
+
+#: patterns/footer-default.php:74
+msgid "Charger"
+msgstr ""
+
+#: patterns/footer-default.php:78
+msgid "Glass Guard"
+msgstr ""
+
+#: patterns/footer-default.php:82
+#: patterns/home-banner.php:25
+#: patterns/home-banner.php:64
+msgid "Mobile Stand"
+msgstr ""
+
+#: patterns/footer-default.php:86
+msgid "Mobile Cover"
+msgstr ""
+
+#: patterns/footer-default.php:92
+msgid "Contact Info"
+msgstr ""
+
+#: patterns/footer-default.php:96
+#: patterns/gallery-section.php:33
+msgid "info@example.com"
+msgstr ""
+
+#: patterns/footer-default.php:100
+msgid "+1112233445566"
+msgstr ""
+
+#: patterns/footer-default.php:104
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"
+msgstr ""
+
+#: patterns/footer-default.php:112
+msgid "WordPress Theme"
+msgstr ""
+
+#: patterns/gallery-section.php
+msgctxt "Pattern title"
+msgid "Gallery Sections"
+msgstr ""
+
+#: patterns/gallery-section.php:21
+msgid "(00) 123 456 789"
+msgstr ""
+
+#: patterns/gallery-section.php:41
+msgid "Welcome to Worldwide Mobile Accessories Shop"
+msgstr ""
+
+#: patterns/gallery-section.php:49
+msgid "Review"
+msgstr ""
+
+#: patterns/header-default.php
+msgctxt "Pattern title"
+msgid "Header Default"
+msgstr ""
+
+#: patterns/header-default.php:47
+msgid "login"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr ""
+
+#: patterns/hidden-404.php:13
+msgid "Page Not Found"
+msgstr ""
+
+#: patterns/hidden-404.php:17
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/home-banner.php
+msgctxt "Pattern title"
+msgid "Home Banner"
+msgstr ""
+
+#: patterns/home-banner.php:21
+#: patterns/home-banner.php:60
+msgid "WELCOME TO MOBILE ACCESSORIES SHOP"
+msgstr ""
+
+#: patterns/home-banner.php:25
+#: patterns/home-banner.php:64
+msgid "Foldable"
+msgstr ""
+
+#: patterns/home-banner.php:29
+#: patterns/home-banner.php:68
+msgid "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"
+msgstr ""
+
+#: patterns/home-banner.php:74
+msgid "Foldable Mobile Stand"
+msgstr ""
+
+#: patterns/home-banner.php:78
+msgid "$120.00"
+msgstr ""
+
+#: patterns/home-banner.php:85
+msgid "Add To Cart"
+msgstr ""
+
+#: patterns/post-content-1.php
+msgctxt "Pattern title"
+msgid "Post Content 1"
+msgstr ""
+
+#: patterns/post-listing-four-column.php
+msgctxt "Pattern title"
+msgid "Post Listing Four Column"
+msgstr ""
+
+#: patterns/post-listing-single-column.php
+msgctxt "Pattern title"
+msgid "Post Listing Single Column"
+msgstr ""
+
+#: patterns/post-listing-three-column.php
+msgctxt "Pattern title"
+msgid "Post Listing Three Column"
+msgstr ""
+
+#: patterns/post-listing-two-column.php
+msgctxt "Pattern title"
+msgid "Post Listing Two Column"
+msgstr ""
+
+#: patterns/primary-sidebar.php
+msgctxt "Pattern title"
+msgid "Primary Sidebar"
+msgstr ""
+
+#: patterns/primary-sidebar.php:11
+msgid "Search"
+msgstr ""
+
+#: patterns/primary-sidebar.php:19
+msgid "Archive"
+msgstr ""
+
+#: patterns/primary-sidebar.php:35
+msgid "Tags"
+msgstr ""
+
+#: patterns/primary-sidebar.php:43
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:51
+msgid "Social Media"
+msgstr ""
+
+#: patterns/product-section.php
+msgctxt "Pattern title"
+msgid "Product Section"
+msgstr ""
+
+#: patterns/product-section.php:18
+#: patterns/product-section.php:49
+msgid "Best Products"
+msgstr ""
+
+#: patterns/product-section.php:22
+#: patterns/product-section.php:53
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+msgstr ""
+
+#: patterns/product-section.php:70
+msgid "Product Name 01"
+msgstr ""
+
+#: patterns/product-section.php:74
+#: patterns/product-section.php:100
+#: patterns/product-section.php:126
+#: patterns/product-section.php:152
+#: patterns/product-section.php:178
+msgid "$34,000"
+msgstr ""
+
+#: patterns/product-section.php:96
+msgid "Product Name 02"
+msgstr ""
+
+#: patterns/product-section.php:122
+msgid "Product Name 03"
+msgstr ""
+
+#: patterns/product-section.php:148
+msgid "Product Name 04"
+msgstr ""
+
+#: patterns/product-section.php:174
+msgid "Product Name 05"
+msgstr ""
+
+#: patterns/product-sidebar.php
+msgctxt "Pattern title"
+msgid "Product Sidebar"
+msgstr ""
+
+#: patterns/product-sidebar.php:11
+msgid "Filter by price"
+msgstr ""
+
+#: patterns/product-sidebar.php:29
+msgid "Active filters"
+msgstr ""
+
+#: patterns/product-sidebar.php:39
+msgid "Filter by stock status"
+msgstr ""
+
+#: patterns/product-sidebar.php:49
+msgid "Filter by attribute"
+msgstr ""
+
+#: patterns/product-sidebar.php:59
+msgid "Filter by rating"
+msgstr ""
+
+#: patterns/shop-title-cover.php
+msgctxt "Pattern title"
+msgid "Shop Title Cover"
+msgstr ""
+
+#: patterns/shop-title-cover.php:11
+msgid "Shop"
+msgstr ""
+
+#: patterns/theme-button.php
+msgctxt "Pattern title"
+msgid "Theme Button"
+msgstr ""
+
+#: patterns/theme-button.php:10
+msgid "READ MORE"
+msgstr ""
+
+#: styles/golden-yellow .json
+msgctxt "Style variation name"
+msgid "Golden Yellow"
+msgstr ""
+
+#: styles/golden-yellow .json
+#: styles/green.json
+#: styles/greenish-teal.json
+#: styles/orange.json
+#: styles/red.json
+#: styles/violet-purple.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: styles/golden-yellow .json
+#: styles/green.json
+#: styles/greenish-teal.json
+#: styles/orange.json
+#: styles/red.json
+#: styles/violet-purple.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Light Shade"
+msgstr ""
+
+#: styles/golden-yellow .json
+#: styles/green.json
+#: styles/greenish-teal.json
+#: styles/orange.json
+#: styles/red.json
+#: styles/violet-purple.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: styles/golden-yellow .json
+#: styles/green.json
+#: styles/greenish-teal.json
+#: styles/orange.json
+#: styles/red.json
+#: styles/violet-purple.json
+#: styles/yellow.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: styles/green.json
+msgctxt "Style variation name"
+msgid "Green"
+msgstr ""
+
+#: styles/greenish-teal.json
+msgctxt "Style variation name"
+msgid "Greenish Teal"
+msgstr ""
+
+#: styles/orange.json
+#: styles/yellow.json
+msgctxt "Style variation name"
+msgid "Orange"
+msgstr ""
+
+#: styles/red.json
+msgctxt "Style variation name"
+msgid "Red"
+msgstr ""
+
+#: styles/violet-purple.json
+msgctxt "Style variation name"
+msgid "Violet Purple"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (No Title / Feature Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog Page (Sidebar on Left)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog Page (Sidebar on Right)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Page (Sidebar on Right)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Page (Sidebar on Left)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Post (Sidebar on Right)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Post (Sidebar on Left)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and background"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and background"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical background to secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Secondary background to Secondary dark background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Secondary background dark to Secondary  background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to foreground"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background left"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background right"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal tertiary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "7"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Jost"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Kumbh Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Upper Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Content Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large (Recent Post Title)"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge (Display)"
+msgstr ""

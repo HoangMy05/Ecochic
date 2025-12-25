@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/*
+Theme Name: Clothing Store Lite
+Theme URI: https://www.omegathemes.com/products/clothing-store-lite
+Author: Omega Themes
+Author URI: https://www.omegathemes.com/
+Description: Clothing Store Lite is a beautifully designed theme tailored for online boutiques, apparel brands, and fashion retailers looking to create a professional digital storefront. This clothing store theme offers a clean, elegant, and fully responsive layout that enhances the shopping experience across all devices. Whether you sell trendy outfits, designer wear, or handmade accessories, Clothing Store Lite provides the perfect foundation to showcase your products with style and confidence. Built with flexibility and performance in mind, this Lite fashion eCommerce theme integrates seamlessly with WooCommerce, allowing easy setup of product pages, secure checkout options, and smooth navigation. With customizable color schemes, typography options, and homepage layouts, Clothing Store Lite helps you reflect your brand identity effortlessly. Its lightweight design ensures fast loading speed, while SEO-friendly code boosts your store’s visibility in search results. You can create modern online clothing shops, fashion blogs, or boutique websites in minutes. The theme includes clean product galleries, featured sections, and promotional banners that highlight new arrivals and sales offers effectively. It’s also compatible with all major page builders, making customization even easier. If you’re looking for a sleek, minimal, and professional clothing store theme, Clothing Store Lite is your ideal choice. Its combination of style, speed, and simplicity makes it suitable for creating high-performing fashion eCommerce websites, boutique stores, and apparel shops with ease. Experience a lightweight, SEO-optimized, and mobile-ready theme built to grow your clothing brand online.
+Requires at least: 5.3
+Tested up to: 6.8
+Requires PHP: 5.6
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: online-clothing-store
+Text Domain: clothing-store-lite
+Tags: blog, e-commerce, food-and-drink, one-column, two-columns, right-sidebar, left-sidebar, grid-layout, wide-blocks, custom-background, custom-logo, custom-menu, custom-colors, custom-header, featured-images, flexible-header, post-formats, rtl-language-support, translation-ready, theme-options, threaded-comments, footer-widgets
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Header
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Social Icon
+# Gutenberg
+# Media
+	## Captions
+	## Galleries
+# Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    word-wrap: normal !important;
+    border: 0;
+}
+
+/* Make screen reader text visible when focused (for keyboard users) */
+.screen-reader-text:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    background: #f1f1f1;
+    color: #21759b;
+    padding: 15px 23px 14px;
+    z-index: 100000;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.6);
+}
+.image-box {
+    margin-top: 18px;
+}
+.sale-card h2 {
+    top: 8px;
+}
+.discount-badge {
+    background: #9A9482;
+    box-shadow: -5px 5px 15px 0px #00000040;
+    position: absolute;
+    width: 100px;
+    top: auto;
+    bottom: 95px;
+    right: -22px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: Figtree;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    padding: 20px 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.discount-badge span{
+    font-family: Figtree;
+    font-weight: 500;
+    font-size: 22px;
+}
+.image-box{
+    text-align: center;
+}
+.image-box a.btn-shop {
+    margin: 10px 0px;
+    background: #384143;
+    color: #fff;
+    padding: 10px 20px;
+}
+.categories-main{
+    display: flex;
+    text-align: center;
+    gap:20px;
+}
+.image-box img {
+    background: linear-gradient(151.78deg, #E2DFD6 0.76%, #C2BEAF 99.08%);
+}
+.categories-box img {
+    width: 100%;
+}
+.categories-column h4 {
+    font-family: Figtree;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #272727;
+}
+.sale-card {
+    background: linear-gradient(284.8deg, #C3BEAF -3.41%, #E2DFD6 101.12%);
+    border-radius: 20px;
+}
+.categories-column{
+    text-align: center;
+}
+.hero-left {
+    background: linear-gradient(284.8deg, #C1BCAD -3.41%, #E3E0D7 101.12%);
+}
+.categories-column button.btn-bag {
+    width: auto;
+    margin-top: 30px !important;
+}
+.categories-column{
+    margin: 40px 0px ;
+}
+.categories-box {
+    width: 16.6%;
+}
+.categories-box h4 {
+    font-family: Figtree;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #272727;
+    margin-top: 20px;
+}
+.stroke-text-slider {
+   bottom: 31%;
+}
+.wlsingle-categorie-img img {
+    border-radius: 50% !important;
+    height: 250px !important;
+    object-fit: cover;
+}
+.sale-box {
+    right: -20px;
+    position: absolute !important;
+    width: 100px !important;
+    bottom: 22%;
+    z-index: 2 !important;
+    padding: 5px 10px !important;
+    box-shadow: -5px 5px 15px 0px #00000040;
+    top: auto;
+}
+.banner-image img {
+    width: 100%;
+    height: 405px !important;
+    position: relative;
+    z-index: 1;
+}
+.sale-box-right .sale-tag {
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    z-index: 1;
+}
+@media screen and (min-width : 320px) and (max-width : 767px) {
+    .sale-box {
+        right: 0px;
+    }
+    .categories-main{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .categories-box{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width : 992px) and (max-width : 1200px) {
+    .slider-image img{
+        height: 400px !important;
+    }
+    .banner-column{
+        min-height: 400px !important;
+    }
+    .banner-image h2{
+        font-size: 16px !important;
+    }
+}

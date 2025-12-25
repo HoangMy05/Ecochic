@@ -1,0 +1,77 @@
+#ast-block-templates-button-wrap {
+    display: none !important;
+}
+
+/*Reset Default Blocks Gap*/
+body.editor-styles-wrapper .wp-site-blocks > * {
+    margin-block-start: 0;
+}
+
+/*Transparent & Sticky Header [bk-header-transparent] [bk-header-sticky]*/
+.bk-header-transparent,
+.bk-header-sticky {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.bk-header-transparent {
+  position: absolute !important;
+}
+.bk-header-sticky {
+  position: fixed !important;
+}
+
+.leaf-image {
+    position: relative !important;
+    -webkit-mask-image: url(assets/images/leaf.png) !important;
+    -webkit-mask-position: center !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-size: 100% !important;
+    background: var(--wp--preset--color--primary) !important;
+    width: 30px !important;
+    object-fit: cover !important;
+    opacity: 1 !important;
+    height: 30px !important;
+    z-index: 9999 !important;
+}
+.carrot-image {
+    position: relative !important;
+    -webkit-mask-image: url(assets/images/carrot.png) !important;
+    -webkit-mask-position: center !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-size: 100% !important;
+    background: var(--wp--preset--color--primary) !important;
+    width: 30px !important;
+    object-fit: cover !important;
+    opacity: 1 !important;
+    height: 30px !important;
+    z-index: 9999 !important;
+}
+.admin-image {
+    position: relative !important;
+    -webkit-mask-image: url(assets/images/admin.png) !important;
+    -webkit-mask-position: center !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-size: 100% !important;
+    background: var(--wp--preset--color--primary) !important;
+    width: 25px !important;
+    object-fit: cover !important;
+    opacity: 1 !important;
+    margin: 0px 3px !important;
+    height: 30px !important;
+    z-index: 9999 !important;
+}
+.star-image {
+    position: relative !important;
+    -webkit-mask-image: url(assets/images/single-star.png) !important;
+    -webkit-mask-position: center !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-size: 100% !important;
+    background: var(--wp--preset--color--primary) !important;
+    width: 30px !important;
+    object-fit: cover !important;
+    opacity: 1 !important;
+    height: 30px !important;
+    z-index: 9999 !important;
+}

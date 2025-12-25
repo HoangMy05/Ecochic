@@ -1,0 +1,209 @@
+/*
+Theme Name: Swimwear Store
+Theme URI: https://www.buywpthemes.net/products/free-swimwear-wordpress-theme/
+Author: Peccular
+Author URI: https://www.buywpthemes.net/
+Description: Swimwear Store WordPress theme offers an attractive design for entrepreneurs selling swimwear and beachwear clothing & accessories. Attractive appeal, ease of maintaining and safety, Swimwear store WordPress theme offers it all. This theme comes with practical features that ensure your customer has smooth and seamless business experience. What makes the layout of our Swimwear Store WordPress theme relevant is that it places a lot of importance on images because images play an important role in selling this product. The spaces are in the right dimension enabling you to display images of models effectively. There is space provided underneath each image where you can create a compelling description. `Buy’ link is prominent and placing an order is safe and quick even for a first-time buyer.  Being woo-commerce compatible (secure payment gateway) orders for swimwear or beachwear accessories can be accepted online. This theme with multiple sections that will accommodate every aspect business that your potential customer may be concerned about. Right from introducing your company, and business, to sharing importance information about your business, products like different accessories & gears,  you deal in, brands you sell, swimwear store WordPress theme offers neatly divided sections where you can display all tis information! The storeowner or manager is not required to have coding language, or programing expertise to manage swimwear store WordPress theme. You can change font colors, background colors, delete old info. Besides being customizable, this is also a responsive theme.  It offers a complete experience to those visiting your site, right from exploring all the products, reading product descriptions, checking out prices, to placing an order. The flow creates a seamless buyer experience. You can devote one section to share your contact details, place social media icons for visitors to connect with you. Since the design has been created for niche business and niche audience, it creates a friendly and easy feel. Whether buyer uses mobile or laptop, the visual appeal will remain unaffected on either screen. Ditto with browsers! Go for swimwear Store WordPress Theme for doing safe and easy business online
+Version: 0.2.2
+Tested up to: 5.8
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: swimwear-store
+Slug: swimwear-store
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, newarrival-image-header, newarrival-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, grid-layout, portfolio, photography
+ 
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+.waves {
+    position: absolute;
+    width: 100%;
+    height: 31vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+    bottom: 0;
+}
+.m-rl{margin-right: 0;margin-left: 0}
+
+.hero-slider .sliderimg{
+    padding: 29px 0px 0px 57px;
+    background: #E7DB13;
+    margin: 0;
+    width: 920px;
+    height: 700px;
+    right: 108px;
+    top: 0px;
+    z-index: 0;
+    position: relative;
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+}
+.hero-slider .sliderimg img{
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    width: 920px;
+    height: 640px;
+}
+#slider-section .slideinning{
+    position: absolute;
+    top: -25%;
+    bottom: 15%;
+    left: -25%;
+    right: 64%;
+    background-image: url(assets/images/sli-oly.jpg) !important;
+    border-radius: 0 0 1500px 1500px;
+}
+
+.slideinning:after {
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    border:10px solid #494747;
+    border-top: none;
+    border-left: none;
+    opacity: 1;
+    border-radius: 0 0 1500px 1500px ;
+}
+#banner-section .b_right{
+    position: relative;
+    background-image: url(assets/images/banner-rhs.png) !important;
+    width: 100%;
+    height: 600px;
+    background: #FEF6F8;
+}
+#service-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blog-section {
+    background-repeat: no-repeat;
+    background: #000;
+    background-size: cover;
+}
+.breadcrumb-section{
+    position: relative;
+    width: 100%;
+    padding: 11em 0 3em 0;
+    background-image: url(assets/images/banner.jpg) !important;
+}
+.breadcrumb-section .headoly {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #00000087;
+}
+
+.footer-area {
+     background-image: url(assets/images/banner.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    overflow: initial;
+    z-index: 1;
+    padding: 2em 0 0em 0;
+    background-repeat: no-repeat;
+}
+.footer-area .f-oly{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background:#fff;
+    opacity: 1; 
+      z-index: -1; 
+}
+.footer-area .f-innbx {
+    position: relative;
+    padding: 0em 2em 0em 2em;
+    margin: 0px 0 1em 0;
+}
+/* Animation */
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+}
+.recentcomments a {
+    display: inline-block !important;
+    padding-left: 18px !important;
+    margin: 0 !important;
+}
+
+.slider-img-overlay {
+    position: absolute;
+    left: 0;
+    right: 52.5%;
+    top: 0;
+    bottom: 0;
+    background: #161415;
+    opacity: 1;
+    clip-path: polygon(0 0, 67% 0, 100% 100%, 0% 100%);
+}
+.slider-img-overlay-outer {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: 1;
+    clip-path: polygon(0 0, 68% 0, 100% 100%, 0% 100%);
+}
+@media (max-width: 991px) {
+.slider-img-overlay-outer {  right: 35%;}
+
+}
+@media (max-width: 767px) {
+    .about-banner-text {width: 100%;}
+    .breadcrumb-section .headoly { right: 1% !important;}}
+.slider-img-overlay {  right: 38.5%;}
+
+}

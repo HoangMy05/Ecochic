@@ -1,0 +1,161 @@
+# Copyright (C) 2025 Omega Themes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clothing Store Lite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/clothing-store-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-11T12:44:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: clothing-store-lite\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Clothing Store Lite"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.omegathemes.com/products/clothing-store-lite"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Clothing Store Lite is a beautifully designed theme tailored for online boutiques, apparel brands, and fashion retailers looking to create a professional digital storefront. This clothing store theme offers a clean, elegant, and fully responsive layout that enhances the shopping experience across all devices. Whether you sell trendy outfits, designer wear, or handmade accessories, Clothing Store Lite provides the perfect foundation to showcase your products with style and confidence. Built with flexibility and performance in mind, this Lite fashion eCommerce theme integrates seamlessly with WooCommerce, allowing easy setup of product pages, secure checkout options, and smooth navigation. With customizable color schemes, typography options, and homepage layouts, Clothing Store Lite helps you reflect your brand identity effortlessly. Its lightweight design ensures fast loading speed, while SEO-friendly code boosts your store’s visibility in search results. You can create modern online clothing shops, fashion blogs, or boutique websites in minutes. The theme includes clean product galleries, featured sections, and promotional banners that highlight new arrivals and sales offers effectively. It’s also compatible with all major page builders, making customization even easier. If you’re looking for a sleek, minimal, and professional clothing store theme, Clothing Store Lite is your ideal choice. Its combination of style, speed, and simplicity makes it suitable for creating high-performing fashion eCommerce websites, boutique stores, and apparel shops with ease. Experience a lightweight, SEO-optimized, and mobile-ready theme built to grow your clothing brand online."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Omega Themes"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.omegathemes.com/"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:22
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:28
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:72
+msgid "https://layout.omegathemes.com/steps/pro-clothing-store-lite/"
+msgstr ""
+
+#: functions.php:75
+msgid "https://www.omegathemes.com/products/clothing-store-wordpress-theme"
+msgstr ""
+
+#: functions.php:78
+msgid "https://wordpress.org/support/theme/clothing-store-lite/"
+msgstr ""
+
+#: functions.php:81
+msgid "https://wordpress.org/support/theme/clothing-store-lite/reviews/#new-post/"
+msgstr ""
+
+#: functions.php:84
+msgid "https://layout.omegathemes.com/clothing-store-lite/"
+msgstr ""
+
+#: functions.php:87
+msgid "https://layout.omegathemes.com/steps/free-clothing-store-lite/"
+msgstr ""
+
+#: functions.php:90
+msgid "https://www.omegathemes.com/products/wp-theme-bundle"
+msgstr ""
+
+#: functions.php:159
+msgid "Welcome! Thank you for choosing Clothing Store Lite. Let’s Set Up Your Website!"
+msgstr ""
+
+#: functions.php:160
+msgid "Before you dive into customization, let’s go through a quick setup process to ensure everything runs smoothly. Click below to start setting up your website in minutes!"
+msgstr ""
+
+#: functions.php:162
+msgid "Get Started with Clothing Store Lite"
+msgstr ""
+
+#: functions.php:164
+msgid "Dismiss"
+msgstr ""
+
+#: inc/custom-functions.php:23
+msgid "Close"
+msgstr ""
+
+#: inc/custom-functions.php:29
+msgid "Horizontal"
+msgstr ""
+
+#: inc/custom-functions.php:101
+msgid "Footer Image"
+msgstr ""
+
+#: inc/custom-functions.php:106
+msgid "Clothing Store Lite is a beautifully designed theme tailored for online boutiques, apparel brands, and fashion retailers looking to create a professional digital storefront. This clothing store theme offers a clean, elegant, and fully responsive layout that enhances the shopping experience across all devices. Whether you sell trendy outfits, designer wear, or handmade accessories, Clothing Store Lite provides the perfect foundation to showcase your products with style and confidence."
+msgstr ""
+
+#: inc/custom-functions.php:113
+msgid "Calendar"
+msgstr ""
+
+#: inc/custom-functions.php:119
+msgid "Enter Keywords Here"
+msgstr ""
+
+#: inc/custom-functions.php:168
+msgid "Theme: "
+msgstr ""
+
+#: inc/custom-functions.php:168
+msgid "Clothing Store Lite  "
+msgstr ""
+
+#: inc/custom-functions.php:168
+msgid " By "
+msgstr ""
+
+#: inc/custom-functions.php:168
+msgid "OMEGA "
+msgstr ""
+
+#: inc/custom-functions.php:169
+msgid "Powered by "
+msgstr ""
+
+#: inc/custom-functions.php:169
+msgid "WordPress"
+msgstr ""
+
+#: inc/custom-functions.php:169
+msgid "WordPress."
+msgstr ""
+
+#: inc/custom-functions.php:181
+msgid "To the Top"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Front Page Template"
+msgstr ""

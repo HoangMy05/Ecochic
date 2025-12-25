@@ -1,0 +1,29 @@
+/*
+ Theme Name: Core Store
+ Theme URI: https://themehunk.com/product/top-store/
+ Author: ThemeHunk
+ Author URI: https://www.themehunk.com
+ Template: top-store
+ Description: Core Store is a visually appealing child theme of Top Store integrated with WooCommerce to make an online store site.
+ Version: 1.0.0
+ Requires at least: 5.5
+ Tested up to: 6.7
+ Requires PHP: 5.6
+ License: GNU General Public License v3 or later
+ License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+ Text Domain: core-store
+ Tags: e-commerce, blog, grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-image-header, featured-images, custom-header, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+
+ This theme, like WordPress, is licensed under the GPL.
+ Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+article.thunk-post-article.post{
+    float:left;
+    width:49%;
+    clear:none;
+    margin-right:2%;
+    }
+    article.thunk-post-article.post:nth-child(2n+2){
+    margin-right:0;
+    }

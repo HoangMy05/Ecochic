@@ -1,0 +1,814 @@
+.wp-block-template-part {
+  margin: 0;
+}
+/* ********** Group ********** */
+/* Box Shadow */
+.is-style-grocery-and-organic-store-boxshadow-light {
+  box-shadow: 0px 8px 30px 0px rgba(2, 27, 11, 0.1);
+}
+.is-style-grocery-and-organic-store-boxshadow-medium {
+  box-shadow: 0px 8px 30px 0px rgba(2, 27, 11, 0.3);
+}
+.is-style-grocery-and-organic-store-boxshadow-large {
+  box-shadow: 0px 8px 30px 0px rgba(2, 27, 11, 0.5);
+}
+.is-style-grocery-and-organic-store-boxshadow-hover {
+  box-shadow: none;
+  transform: translateY(0px);
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocery-and-organic-store-boxshadow-hover:hover {
+  box-shadow: 0px 8px 30px 0px rgba(2, 27, 11, 0.1);
+  transform: translateY(-3px);
+  transition: all 0.2s ease-in-out;
+}
+/* Overflow Hidden */
+.is-style-grocery-and-organic-store-overflow-hidden {
+  overflow: hidden;
+}
+/* ********** Categories List ********** */
+ul.is-style-grocery-and-organic-store-categories-primary li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid var(--wp--preset--color--border-color);
+  color: var(--wp--preset--color--primary);
+}
+ul.is-style-grocery-and-organic-store-categories-secondary li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid var(--wp--preset--color--border-color);
+  color: var(--wp--preset--color--secondary);
+}
+ul.is-style-grocery-and-organic-store-categories-terniary li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid var(--wp--preset--color--border-color);
+  color: var(--wp--preset--color--terniary);
+}
+
+/* ********** Categories ********** */
+.is-style-categories-primary-background .wp-block-post-terms__separator,
+.is-style-categories-secondary-background .wp-block-post-terms__separator,
+.is-style-categories-terniary-background .wp-block-post-terms__separator,
+.is-style-categories-rounded-background .wp-block-post-terms__separator,
+.is-style-categories-faded-background .wp-block-post-terms__separator {
+  visibility: hidden;
+}
+.is-style-categories-primary-background a,
+.is-style-categories-secondary-background a,
+.is-style-categories-terniary-background a,
+.is-style-categories-mixed-background a,
+.is-style-categories-faded-background a {
+  padding: 5px 12px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.is-style-categories-primary-background a:hover,
+.is-style-categories-secondary-background a:hover,
+.is-style-categories-terniary-background a:hover,
+.is-style-categories-mixed-background a:hover,
+.is-style-categories-faded-background a:hover {
+  transform: translateY(-3px);
+}
+
+/* Primary */
+.is-style-categories-primary-background a {
+  background: var(--wp--preset--color--primary);
+}
+.is-style-categories-primary-background a:hover {
+  background: var(--wp--preset--color--secondary);
+}
+/* Secondary */
+.is-style-categories-secondary-background a {
+  background: var(--wp--preset--color--secondary);
+}
+.is-style-categories-secondary-background a:hover {
+  background: var(--wp--preset--color--terniary);
+}
+/* Terniary */
+.is-style-categories-terniary-background a {
+  background: var(--wp--preset--color--terniary);
+}
+.is-style-categories-terniary-background a:hover {
+  background: var(--wp--preset--color--primary);
+}
+
+/* Mixed */
+.is-style-categories-mixed-background a:nth-child(3n + 1) {
+  background: var(--wp--preset--color--primary);
+}
+.is-style-categories-mixed-background a:nth-child(3n + 2) {
+  background: var(--wp--preset--color--secondary);
+}
+.is-style-categories-mixed-background a:nth-child(3n) {
+  background: var(--wp--preset--color--terniary);
+}
+/* Faded */
+.is-style-categories-faded-background a {
+  background: color-mix(
+    in srgb,
+    var(--wp--preset--color--primary) 10%,
+    transparent
+  );
+}
+/* ********** Post Date ********** */
+.is-style-grocery-and-organic-store-date-icon-dark:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/calendar-1.png);
+  mask-image: url(../images/calendar-1.png);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  margin-right: 5px;
+}
+.is-style-grocery-and-organic-store-date-icon-light:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/calendar-2.png);
+  mask-image: url(../images/calendar-2.png);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  margin-right: 5px;
+}
+/* ********** Post Author ********** */
+.is-style-grocery-and-organic-store-author-icon-light.wp-block-post-author-name::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/author-2.png);
+  mask-image: url(../images/author-2.png);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  margin-right: 5px;
+}
+.is-style-grocery-and-organic-store-author-icon-dark.wp-block-post-author-name::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/author-1.png);
+  mask-image: url(../images/author-1.png);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  margin-right: 5px;
+}
+/* ********** Search ********** */
+.is-style-grocery-and-organic-store-search-primary .wp-block-search__inside-wrapper > *,
+.is-style-grocery-and-organic-store-search-secondary .wp-block-search__inside-wrapper > *,
+.is-style-grocery-and-organic-store-search-terniary .wp-block-search__inside-wrapper > *,
+.is-style-grocery-and-organic-store-search-rounded
+  .wp-block-search__inside-wrapper
+  > button
+  svg {
+  transform: translateY(0px);
+  transition: all 0.2s ease-in-out;
+}
+/* Primary */
+.is-style-grocery-and-organic-store-search-primary
+  .wp-block-search__inside-wrapper
+  > button:hover {
+  background-color: var(--wp--preset--color--primary) !important;
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocery-and-organic-store-search-primary
+  .wp-block-search__inside-wrapper
+  > button:hover
+  svg {
+  transform: translateY(-3px);
+  fill: var(--wp--preset--color--white);
+  transition: all 0.2s ease-in-out;
+}
+/* Secondary */
+.is-style-grocery-and-organic-store-search-secondary
+  .wp-block-search__inside-wrapper
+  > button:hover {
+  background-color: var(--wp--preset--color--secondary) !important;
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocery-and-organic-store-search-secondary
+  .wp-block-search__inside-wrapper
+  > button:hover
+  svg {
+  transform: translateY(-3px);
+  fill: var(--wp--preset--color--white);
+  transition: all 0.2s ease-in-out;
+}
+/* Terniary */
+.is-style-grocery-and-organic-store-search-ternairy
+  .wp-block-search__inside-wrapper
+  > button:hover {
+  background-color: var(--wp--preset--color--terniary) !important;
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocery-and-organic-store-search-terniary
+  .wp-block-search__inside-wrapper
+  > button:hover
+  svg {
+  transform: translateY(-3px);
+  fill: var(--wp--preset--color--white);
+  transition: all 0.2s ease-in-out;
+}
+/* Rounded */
+.is-style-grocery-and-organic-store-search-rounded .wp-block-search__inside-wrapper {
+  border: 1px solid var(--wp--preset--color--border-color);
+  padding-left: 5px;
+  border-radius: 100px;
+}
+.is-style-grocery-and-organic-store-search-rounded .wp-block-search__inside-wrapper input {
+  border-radius: 100px 0px 0px 100px !important;
+  outline: none;
+  border: none;
+}
+.is-style-grocery-and-organic-store-search-rounded .wp-block-search__inside-wrapper button {
+  border-radius: 0px 100px 100px 0px !important;
+  margin-left: 0;
+}
+.is-style-grocery-and-organic-store-search-rounded
+  .wp-block-search__inside-wrapper
+  > button:hover
+  svg {
+  fill: var(--wp--preset--color--white);
+  transform: translateY(-3px);
+  transition: transform 0.2s ease-in-out;
+}
+/* ********** Navigation ********** */
+/* Primary */
+.wp-block-navigation.is-style-grocery-and-organic-store-navigation-primary
+  li.current-menu-item {
+  color: var(--wp--preset--color--primary) !important;
+}
+.wp-block-navigation.is-style-grocery-and-organic-store-navigation-primary
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--primary);
+}
+.is-style-grocery-and-organic-store-navigation-primary.wp-block-navigation
+  ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--primary);
+}
+/* Secondary */
+.wp-block-navigation.is-style-grocery-and-organic-store-navigation-secondary
+  li.current-menu-item {
+  color: var(--wp--preset--color--secondary) !important;
+}
+.wp-block-navigation.is-style-grocery-and-organic-store-navigation-secondary
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--secondary);
+}
+.is-style-grocery-and-organic-store-navigation-secondary.wp-block-navigation
+  ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--secondary);
+}
+/* Terniary */
+.wp-block-navigation.is-style-grocery-and-organic-store-navigation-terniary
+  li.current-menu-item {
+  color: var(--wp--preset--color--terniary) !important;
+}
+.wp-block-navigation.is-style-grocery-and-organic-store-navigation-terniary
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--terniary);
+}
+.is-style-grocery-and-organic-store-navigation-terniary.wp-block-navigation
+  ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--terniary);
+}
+/* ********** Button ********** */
+/* Page List Hidden Style */
+ul.is-style-grocery-and-organic-store-page-list-hidden {
+  list-style: none;
+  padding-left: 0;
+}
+/* ********** Button ********** */
+/* Primary */
+.is-style-grocery-and-organic-store-button-primary a:hover {
+  background-color: var(--wp--preset--color--primary) !important;
+  color: var(--wp--preset--color--light) !important;
+  transform: translateY(-3px);
+  transition: all 0.2s ease-in-out;
+}
+/* Secondary */
+.is-style-grocery-and-organic-store-button-secondary a:hover {
+  background-color: var(--wp--preset--color--secondary) !important;
+  color: var(--wp--preset--color--light) !important;
+  transform: translateY(-3px);
+  transition: all 0.2s ease-in-out;
+}
+/* Terniary */
+.is-style-grocery-and-organic-store-button-terniary a:hover {
+  background-color: var(--wp--preset--color--terniary) !important;
+  color: var(--wp--preset--color--white) !important;
+  transform: translateY(-3px);
+  transition: all 0.2s ease-in-out;
+}
+/* Arrow */
+.is-style-grocery-and-organic-store-button-arrow > a,
+.is-style-grocery-and-organic-store-button-up-arrow > a {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.5s;
+}
+.is-style-grocery-and-organic-store-button-arrow a::after,
+.is-style-grocery-and-organic-store-button-up-arrow a::after {
+  content: "🡪";
+  opacity: 0;
+  font-size: larger;
+  transform: translateX(0px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0px;
+  height: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.is-style-grocery-and-organic-store-button-arrow:hover a::after {
+  opacity: 1;
+  transform: translateX(5px);
+  width: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.is-style-grocery-and-organic-store-button-up-arrow:hover a::after {
+  opacity: 1;
+  transform: translateX(5px);
+  transform: rotate(-45deg);
+  width: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ********** Post Title ********** */
+.is-style-title-hover-primary.wp-block-post-title a:hover,
+.is-style-title-hover-secondary.wp-block-post-title a:hover {
+  background-size: 100% 3px;
+}
+.is-style-title-hover-primary a {
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(
+    var(--wp--preset--color--primary),
+    var(--wp--preset--color--primary)
+  );
+  background-position: 0 1.05em;
+  background-size: 0 3px;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
+}
+.is-style-title-hover-secondary a {
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(
+    var(--wp--preset--color--secondary),
+    var(--wp--preset--color--secondary)
+  );
+  background-position: 0 1.05em;
+  background-size: 0 3px;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
+}
+/* ********** Post Title ********** */
+.is-style-title-hover-primary.wp-block-post-title a:hover,
+.is-style-title-hover-secondary.wp-block-post-title a:hover,
+.is-style-title-hover-terniary.wp-block-post-title a:hover {
+  background-size: 100% 3px;
+}
+.is-style-title-hover-primary a {
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(
+    var(--wp--preset--color--primary),
+    var(--wp--preset--color--primary)
+  );
+  background-position: 0 1.05em;
+  background-size: 0 3px;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
+}
+.is-style-title-hover-secondary a {
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(
+    var(--wp--preset--color--secondary),
+    var(--wp--preset--color--secondary)
+  );
+  background-position: 0 1.05em;
+  background-size: 0 3px;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
+}
+.is-style-title-hover-terniary a {
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(
+    var(--wp--preset--color--terniary),
+    var(--wp--preset--color--terniary)
+  );
+  background-position: 0 1.05em;
+  background-size: 0 3px;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
+}
+/* ********** Image *********** */
+.is-style-grocery-and-organic-store-hover-zoom-in,
+.is-style-grocery-and-organic-store-hover-zoom-out {
+  overflow: hidden;
+}
+.is-style-grocery-and-organic-store-hover-zoom-in img,
+.is-style-grocery-and-organic-store-hover-zoom-out:hover img {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocery-and-organic-store-hover-zoom-in:hover img,
+.is-style-grocery-and-organic-store-hover-zoom-out img {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+/* Spin */
+.is-style-grocery-and-organic-store-animation-spin img {
+  animation: spin 2s linear infinite;
+  animation-play-state: running;
+}
+.is-style-grocery-and-organic-store-animation-spin img:hover {
+  animation: spin 2s linear infinite;
+  animation-play-state: paused;
+}
+.is-style-grocery-and-organic-store-hover-animation-spin:hover img {
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Pulse */
+.is-style-grocery-and-organic-store-animation-pulse img {
+  animation: pulse 2s infinite;
+}
+.is-style-grocery-and-organic-store-hover-animation-pulse:hover img {
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* ********** List Style ********** */
+ul.is-style-grocery-and-organic-store-list-style-none {
+  list-style: none;
+  padding: 0px;
+}
+/* ********** Pagination ********** */
+/* Primary */
+nav.is-style-grocery-and-organic-store-pagination-primary {
+  gap: 1em;
+}
+nav.is-style-grocery-and-organic-store-pagination-primary
+  .wp-block-query-pagination-numbers
+  .page-numbers.current {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-color);
+  background-color: var(--wp--preset--color--primary);
+}
+nav.is-style-grocery-and-organic-store-pagination-primary
+  .wp-block-query-pagination-numbers
+  a,
+nav.is-style-grocery-and-organic-store-pagination-primary .wp-block-query-pagination-next,
+nav.is-style-grocery-and-organic-store-pagination-primary
+  .wp-block-query-pagination-previous {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-color);
+}
+nav.is-style-grocery-and-organic-store-pagination-primary
+  .wp-block-query-pagination-numbers
+  a:hover,
+nav.is-style-grocery-and-organic-store-pagination-primary
+  .wp-block-query-pagination-next:hover,
+nav.is-style-grocery-and-organic-store-pagination-primary
+  .wp-block-query-pagination-previous:hover {
+  background-color: var(--wp--preset--color--primary);
+}
+/* Secondary */
+nav.is-style-grocery-and-organic-store-pagination-secondary {
+  gap: 1em;
+}
+nav.is-style-grocery-and-organic-store-pagination-secondary
+  .wp-block-query-pagination-numbers
+  .page-numbers.current {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-color);
+  background-color: var(--wp--preset--color--secondary);
+}
+nav.is-style-grocery-and-organic-store-pagination-secondary
+  .wp-block-query-pagination-numbers
+  a,
+nav.is-style-grocery-and-organic-store-pagination-secondary .wp-block-query-pagination-next,
+nav.is-style-grocery-and-organic-store-pagination-secondary
+  .wp-block-query-pagination-previous {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-color);
+}
+nav.is-style-grocery-and-organic-store-pagination-secondary
+  .wp-block-query-pagination-numbers
+  a:hover,
+nav.is-style-grocery-and-organic-store-pagination-secondary
+  .wp-block-query-pagination-next:hover,
+nav.is-style-grocery-and-organic-store-pagination-secondary
+  .wp-block-query-pagination-previous:hover {
+  background-color: var(--wp--preset--color--secondary);
+}
+/* Terniary */
+nav.is-style-grocery-and-organic-store-pagination-terniary {
+  gap: 1em;
+}
+nav.is-style-grocery-and-organic-store-pagination-terniary
+  .wp-block-query-pagination-numbers
+  .page-numbers.current {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-color);
+  background-color: var(--wp--preset--color--terniary);
+}
+nav.is-style-grocery-and-organic-store-pagination-terniary
+  .wp-block-query-pagination-numbers
+  a,
+nav.is-style-grocery-and-organic-store-pagination-terniary .wp-block-query-pagination-next,
+nav.is-style-grocery-and-organic-store-pagination-terniary
+  .wp-block-query-pagination-previous {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-color);
+}
+nav.is-style-grocery-and-organic-store-pagination-terniary
+  .wp-block-query-pagination-numbers
+  a:hover,
+nav.is-style-grocery-and-organic-store-pagination-terniary
+  .wp-block-query-pagination-next:hover,
+nav.is-style-grocery-and-organic-store-pagination-terniary
+  .wp-block-query-pagination-previous:hover {
+  background-color: var(--wp--preset--color--terniary);
+}
+
+/* ********** WooCommerce Blocks ********** */
+/* Product in Stock */
+.is-style-grocery-and-organic-store-wc-custom-psi-rounded,
+.is-style-grocery-and-organic-store-wc-custom-psi-pointed {
+  display: inline-flex;
+}
+.is-style-grocery-and-organic-store-wc-custom-psi-rounded {
+  border-radius: 100px;
+}
+/* Add To Cart */
+.is-style-grocery-and-organic-store-wc-btn-primary:hover > button {
+  background-color: var(--wp--preset--color--primary) !important;
+  color: var(--wp--preset--color--white) !important;
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocery-and-organic-store-wc-btn-secondary:hover > button {
+  background-color: var(--wp--preset--color--secondary) !important;
+  color: var(--wp--preset--color--dark-shade) !important;
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocery-and-organic-store-wc-btn-terniary:hover > button {
+  background-color: var(--wp--preset--color--terniary) !important;
+  color: var(--wp--preset--color--white) !important;
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocery-and-organic-store-wc-btn-faded:hover > button {
+  background-color: color-mix(
+    in srgb,
+    var(--wp--preset--color--primary) 10%,
+    transparent
+  );
+  color: var(--wp--preset--color--dark-shade) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.is-style-grocery-and-organic-store-wc-btn-icon button span {
+  display: flex;
+}
+.is-style-grocery-and-organic-store-wc-btn-icon button {
+  transform: translateY(0);
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocery-and-organic-store-wc-btn-icon button:hover {
+  transform: translateY(-3px);
+  transition: all 0.2s ease-in-out;
+  background-color: var(--wp--preset--color--primary);
+}
+.is-style-grocery-and-organic-store-wc-btn-icon button span:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/cart-icon.png);
+  mask-image: url(../images/cart-icon.png);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  margin-right: 5px;
+}
+
+/* Product Price */
+/* Strikeout Price Hidden */
+.is-style-grocery-and-organic-store-wc-hide-strikeout del {
+  display: none !important;
+}
+/* Strikeout Price Primary */
+.is-style-grocery-and-organic-store-wc-strikeout-primary del {
+  color: var(--wp--preset--color--primary) !important;
+}
+/* Strikeout Price Secondary */
+.is-style-grocery-and-organic-store-wc-strikeout-secondary del {
+  color: var(--wp--preset--color--secondary) !important;
+}
+/* Strikeout Price Terniary */
+.is-style-grocery-and-organic-store-wc-strikeout-terniary del {
+  color: var(--wp--preset--color--terniary) !important;
+}
+/* Strikeout Price Foreground */
+.is-style-grocery-and-organic-store-wc-strikeout-foreground del {
+  color: var(--wp--preset--color--foreground) !important;
+}
+/* Product Image -Sales Badge*/
+/* Primary */
+.is-style-grocery-and-organic-store-sales-badge-primary
+  div.wc-block-components-product-sale-badge {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light);
+  border: none;
+  border-radius: 100px;
+}
+/* Secondary */
+.is-style-grocery-and-organic-store-sales-badge-secondary
+  div.wc-block-components-product-sale-badge {
+  background-color: var(--wp--preset--color--secondary);
+  color: var(--wp--preset--color--light);
+  border: none;
+  border-radius: 100px;
+}
+/* Terniary */
+.is-style-grocery-and-organic-store-sales-badge-terniary
+  div.wc-block-components-product-sale-badge {
+  background-color: var(--wp--preset--color--terniary);
+  color: var(--wp--preset--color--light);
+  border: none;
+  border-radius: 100px;
+}
+/* ********** Product Categories ********** */
+/* Primary */
+.is-style-grocery-and-organic-store-wc-categories-primary ul {
+  padding: 0;
+}
+.is-style-grocery-and-organic-store-wc-categories-primary ul li:not(:last-child) {
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--wp--preset--color--primary);
+}
+.is-style-grocery-and-organic-store-wc-categories-primary ul li {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1em 0 !important;
+  width: 100%;
+}
+.is-style-grocery-and-organic-store-wc-categories-primary ul li a span {
+  width: 30px;
+  height: 30px;
+  border: none !important;
+  margin: 0 1em 0 0 !important;
+}
+/* Secondary */
+.is-style-grocery-and-organic-store-wc-categories-secondary ul {
+  padding: 0;
+}
+.is-style-grocery-and-organic-store-wc-categories-secondary ul li:not(:last-child) {
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--wp--preset--color--secondary);
+}
+.is-style-grocery-and-organic-store-wc-categories-secondary ul li {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1em 0 !important;
+  width: 100%;
+}
+.is-style-grocery-and-organic-store-wc-categories-secondary ul li a span {
+  width: 30px;
+  height: 30px;
+  border: none !important;
+  margin: 0 1em 0 0 !important;
+}
+/* Terniary */
+.is-style-grocery-and-organic-store-wc-categories-terniary ul {
+  padding: 0;
+}
+.is-style-grocery-and-organic-store-wc-categories-terniary ul li:not(:last-child) {
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--wp--preset--color--terniary);
+}
+.is-style-grocery-and-organic-store-wc-categories-terniary ul li {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1em 0 !important;
+  width: 100%;
+}
+.is-style-grocery-and-organic-store-wc-categories-terniary ul li a span {
+  width: 30px;
+  height: 30px;
+  border: none !important;
+  margin: 0 1em 0 0 !important;
+}
+/* Border */
+.is-style-grocery-and-organic-store-wc-categories-border ul {
+  padding: 0;
+}
+.is-style-grocery-and-organic-store-wc-categories-border ul li:not(:last-child) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1em;
+  margin: 0 0 1em 0 !important;
+  border-bottom: 1px solid var(--wp--preset--color--border-color);
+  width: 100%;
+}
+.is-style-grocery-and-organic-store-wc-categories-border ul li:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0;
+  margin: 0 !important;
+  width: 100%;
+}
+.is-style-grocery-and-organic-store-wc-categories-border ul li a span {
+  width: 30px;
+  height: 30px;
+  border: none !important;
+  margin: 0 1em 0 0 !important;
+}
+/* Catalog Sorting */
+/* Primary */
+.is-style-grocery-and-organic-store-wc-sorting-primary select {
+  background-color: var(--wp--preset--color--primary);
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+}
+/* Secondary */
+.is-style-grocery-and-organic-store-wc-sorting-secondary select {
+  background-color: var(--wp--preset--color--secondary);
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+}
+/* Terniary */
+.is-style-grocery-and-organic-store-wc-sorting-terniary select {
+  background-color: var(--wp--preset--color--terniary);
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+}

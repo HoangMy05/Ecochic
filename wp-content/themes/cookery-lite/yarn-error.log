@@ -1,0 +1,65 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Rashmi\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\composer;C:\Ruby31-x64;C:\Program Files\Git\cmd;C:\Users\Rashmi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin;C:\laragon\bin\nginx\nginx-1.19.10;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs;C:\laragon\bin\notepad++;C:\laragon\bin\php\php-8.1.8-Win32-vs16-x64;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\usr\bin;C:\Users\Rashmi\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\Rashmi\AppData\Roaming\Composer\vendor\bin;C:\Users\Rashmi\AppData\Roaming\npm;C:\Ruby31-x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Users\Rashmi\AppData\Local\Microsoft\WindowsApps;C:\Users\Rashmi\AppData\Local\Programs\Microsoft VS Code\bin;c:\wp-cli;C:\Ruby31-x64;C:\Users\Rashmi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Rashmi\AppData\Local\Programs\cursor\resources\app\bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  20.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Rashmi\AppData\Local\Yarn\Cache\v6\npm-@babel-types-7.27.6-a434ca7add514d4e646c80f7375c0aa2befc5535-integrity\node_modules\@babel\types\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "cookery-lite",
+    "version": "1.1.5",
+    "description": "=== Cookery Lite ===",
+    "main": "Gruntfile.js",
+    "scripts": {
+      "start": "wp-scripts start",
+      "build": "wp-scripts build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://gitlab.com/blossomthemes/cookery-lite.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://gitlab.com/blossomthemes/cookery-lite/issues"
+    },
+    "homepage": "https://gitlab.com/blossomthemes/cookery-lite#readme",
+    "devDependencies": {
+      "@wordpress/scripts": "^27.8.0",
+      "grunt": "^1.5.3",
+      "grunt-bumpup": "^0.6.3",
+      "grunt-contrib-clean": "^2.0.0",
+      "grunt-contrib-compress": "^2.0.0",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-cssmin": "^4.0.0",
+      "grunt-contrib-jshint": "^3.0.0",
+      "grunt-contrib-uglify": "^5.0.1",
+      "grunt-curl": "^2.5.1",
+      "grunt-json2php": "^0.1.4",
+      "grunt-text-replace": "^0.4.0",
+      "grunt-wp-i18n": "^1.0.3",
+      "css-minimizer-webpack-plugin": "^7.0.0",
+      "grunt-exec": "^3.0.0"
+    },
+    "dependencies": {
+      "react-router-dom": "^6.23.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

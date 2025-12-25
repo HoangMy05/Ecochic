@@ -1,0 +1,306 @@
+/*
+Theme Name: Grocery and Organic Store
+Theme URI: https://www.templatehouse.net/themes/grocery-store-wordpress-theme/
+Author: TemplateHouse
+Author URI: https://www.templatehouse.net/
+Description: Grocery and Organic Store is a Clean Multi-purpose WooCommerce WordPress Theme comes with Product Filter, Ajax Search, Ajax Add to Cart, Quick View, Bought Together, Compare , Wishlist , Mini Cart etc.. . It was built for multipurpose shops like mega store, grocery store, super market, organic shop and online stores selling products like beverages, vegetables, fruits, ice creams, paste, herbs, juice, meat, cold drinks, sausages, cocktails, soft drinks, cookies, electronics gadgets, shoes, watches, sport wears, baby products, skincare products, modern arts, etc. NeGrocery and Organic Storest comes along with Elementor page builder. The most powerful Page Builder providing you with an advanced handy tool with drag and drop mode to customize your pages on the front end. A User-friendly & real-time customizer helps you design the desired website fast and review your results instantly.. Creative Design: Grocery and Organic Store is a bold theme that organizing content to follow natural eyes, striking balance between beautiful and visual hierarchy. Drag and drop facility always helpful and comfortable while customizing the pages on the fronted. Elementor is the most powerful page builder gives you a handy tool to do that with no efforts. Changing any front-end is simple and easy for anyone without any prior coding knowledge.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
+Version: 1.0.4
+Requires at least: 5.9
+Tested up to: 6.8
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: grocery-and-organic-store
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.entry-content.wp-block-post-content a,
+.wp-block-comment-content a,
+p a {
+  text-decoration: underline;
+}
+/* -------------------- WooCommerce -------------------- */
+.grocery-and-organic-store-categories-dropdown .wp-block-categories__label {
+  display: none;
+}
+.grocery-and-organic-store-categories-dropdown .wp-block-categories-dropdown select {
+  appearance: none;
+  border: none;
+  outline: none;
+  color: var(--wp--preset--color--light);
+  font-size: var(--wp--preset--font-size--normal);
+  font-family: var(--wp--preset--font-family--inter);
+  background-color: inherit;
+  font-weight: 400;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.grocery-and-organic-store-categories-dropdown select option {
+  padding: 5px 8px !important;
+  color: var(--wp--preset--color--foreground);
+}
+.grocery-and-organic-store-categories-dropdown .wp-block-categories-dropdown button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: var(--wp--preset--color--transparent);
+}
+.grocery-and-organic-store-categories-dropdown .wp-block-categories-dropdown button > svg {
+  fill: var(--wp--preset--color--light);
+}
+.grocery-and-organic-store-categories-dropdown .wp-block-categories-dropdown button > svg:hover {
+  fill: var(--wp--preset--color--secondary);
+}
+/* Slider Marquee */
+.grocery-and-organic-store-marquee-wrapper {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.grocery-and-organic-store-marquee-content {
+  position: relative;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 2rem;
+  animation: grocery-and-organic-store-marquee 15s linear infinite;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.grocery-and-organic-store-marquee-content:hover {
+  animation-play-state: paused;
+}
+.grocery-and-organic-store-marquee-wrapper .grocery-and-organic-store-marquee-content.block-editor-block-list__block,
+.grocery-and-organic-store-marquee-content.block-editor-block-list__block {
+  animation: none;
+}
+.grocery-and-organic-store-marquee-content p {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  flex: 1 0 auto;
+  margin-block-start: 0;
+  white-space: nowrap;
+  flex: 1 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.grocery-and-organic-store-marquee-content p:before {
+  content: url(assets/images/union.svg);
+  margin-right: 1em;
+  font-size: var(--wp--preset--font-size--large);
+}
+@keyframes grocery-and-organic-store-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* ********** Page List ********** */
+ul.grocery-and-organic-store-page-list-padding {
+  padding: 0px;
+}
+/* ********** Contact Form 7 ********** */
+.wpcf7 form input {
+  padding: 1em;
+  font-size: var(--wp--preset--font-size--normal);
+  color: var(--wp--preset--color--foreground);
+  width: -webkit-fill-available;
+  border: none;
+  outline: none;
+}
+.wpcf7 form input[type="submit"] {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light);
+  padding: 1em;
+}
+.wpcf7 form input[type="submit"]:hover {
+  background-color: var(--wp--preset--color--secondary);
+  color: var(--wp--preset--color--dark-shade);
+}
+/* contact Newsletter 1 */
+.grocery-and-organic-store-contact-newsletter-1 form p input,
+.grocery-and-organic-store-contact-newsletter-1 form p textarea {
+  padding: 10px;
+  margin-bottom: 1em;
+  font-size: var(--wp--preset--font-size--normal);
+  border: 1px solid var(--wp--preset--color--dark-shade);
+  width: -webkit-fill-available;
+}
+.grocery-and-organic-store-contact-newsletter-1 form p input[type="submit"] {
+  padding: 10px;
+  font-size: var(--wp--preset--font-size--medium) !important;
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light);
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+.grocery-and-organic-store-contact-newsletter-1 form p input[type="submit"]:hover {
+  padding: 10px;
+  font-size: var(--wp--preset--font-size--medium) !important;
+  background: var(--wp--preset--color--secondary);
+  color: var(--wp--preset--color--light);
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+/* contact Newsletter 2 */
+.grocery-and-organic-store-contact-newsletter-2 form {
+  position: relative;
+  width: 100%;
+}
+.grocery-and-organic-store-contact-newsletter-2 form p input {
+  padding: 12px;
+  margin-bottom: 5px;
+  font-size: var(--wp--preset--font-size--normal);
+  color: var(--wp--preset--color--dark-shade);
+  border: 1px solid var(--wp--preset--color--border-color);
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+.grocery-and-organic-store-contact-newsletter-2 form p textarea {
+  padding: 12px;
+  margin-bottom: 5px;
+  font-size: var(--wp--preset--font-size--normal);
+  border: 1px solid var(--wp--preset--color--border-color);
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+.grocery-and-organic-store-contact-newsletter-2 form p input[type="submit"] {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  padding: 12px;
+  font-size: var(--wp--preset--font-size--normal) !important;
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light);
+  width: fit-content;
+  border: 1px solid var(--wp--preset--color--primary);
+  transition: all 0.2s ease-in-out;
+}
+.grocery-and-organic-store-contact-newsletter-2 form p input[type="submit"]:hover {
+  background: var(--wp--preset--color--secondary);
+  color: var(--wp--preset--color--light);
+  border: 1px solid var(--wp--preset--color--secondary);
+  transition: all 0.2s ease-in-out;
+}
+/* contact Newsletter 3 - Rounded */
+.grocery-and-organic-store-contact-newsletter-3 form {
+  position: relative;
+  width: 100%;
+}
+.grocery-and-organic-store-contact-newsletter-3 form p input {
+  padding: 13px;
+  margin-bottom: 5px;
+  font-size: var(--wp--preset--font-size--normal);
+  color: var(--wp--preset--color--dark-shade);
+  border: 1px solid var(--wp--preset--color--border-color);
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+.grocery-and-organic-store-contact-newsletter-3 form p textarea {
+  padding: 12px;
+  margin-bottom: 5px;
+  font-size: var(--wp--preset--font-size--normal);
+  border: 1px solid var(--wp--preset--color--border-color);
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+.grocery-and-organic-store-contact-newsletter-3 form p input[type="submit"] {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  padding: 13px;
+  font-size: var(--wp--preset--font-size--normal) !important;
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light);
+  width: fit-content;
+  border: 1px solid var(--wp--preset--color--primary);
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+.grocery-and-organic-store-contact-newsletter-3 form p input[type="submit"]:hover {
+  background: var(--wp--preset--color--secondary);
+  color: var(--wp--preset--color--light);
+  border: 1px solid var(--wp--preset--color--secondary);
+  transition: all 0.2s ease-in-out;
+}
+/* contact Newsletter 4 */
+.grocery-and-organic-store-contact-newsletter-4 form p input,
+.grocery-and-organic-store-contact-newsletter-4 form p textarea {
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: var(--wp--preset--font-size--normal);
+  border: 1px solid var(--wp--preset--color--light);
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+.grocery-and-organic-store-contact-newsletter-4 form p input[type="submit"] {
+  padding: 10px;
+  font-size: var(--wp--preset--font-size--medium) !important;
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light);
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+.grocery-and-organic-store-contact-newsletter-4 form p input[type="submit"]:hover {
+  padding: 10px;
+  font-size: var(--wp--preset--font-size--medium) !important;
+  background: var(--wp--preset--color--secondary);
+  color: var(--wp--preset--color--light);
+  border: 1px solid var(--wp--preset--color--secondary);
+  width: 100%;
+}
+/* Product Categories */
+.wp-block-group.grocery-and-organic-store-product-group-wrapper .wp-block-group.is-style-grocery-and-organic-store-product-group img.attachment-woocommerce_single,
+.wp-block-group.is-style-grocery-and-organic-store-product-group .wp-block-button.wc-block-components-product-button {
+  transition: all 0.2s ease-in-out;
+}
+.wp-block-group.grocery-and-organic-store-product-group-wrapper:hover .wp-block-group.is-style-grocery-and-organic-store-product-group img.attachment-woocommerce_single {
+  opacity: 0.6;
+}
+.wp-block-group.is-style-grocery-and-organic-store-product-wrapper:hover .wp-block-group.is-style-grocery-and-organic-store-product-group img.attachment-woocommerce_single {
+  opacity: 0.6;
+}
+.wp-block-group.grocery-and-organic-store-product-group-wrapper:hover .wp-block-button.wc-block-components-product-button {
+  bottom: 13px;
+  opacity: 1;
+}
+.wp-block-group.is-style-grocery-and-organic-store-product-group {
+  position: relative;
+  overflow: hidden;
+}
+.wp-block-group.is-style-grocery-and-organic-store-product-group .wp-block-button.wc-block-components-product-button {
+  position: absolute;
+  bottom: -100px;
+  width: 90%;
+  left: 5%;
+  opacity: 0;
+}
+
+.wp-block-group.is-style-grocery-and-organic-store-product-wrapper:hover .wp-block-button.wc-block-components-product-button .wp-block-button__link:hover {
+  background-color: var(--wp--preset--color--primary) !important;
+  color: #fff !important;
+}
+.grocery-and-organic-store-marquee-content p:before {
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+}

@@ -1,0 +1,3 @@
+<?php
+return ['project-id-version'=>'HUSKY - Products Filter Professional for WooCommerce','report-msgid-bugs-to'=>'','pot-creation-date'=>'2025-12-17 05:50+0000','po-revision-date'=>'2025-12-17 05:54+0000','last-translator'=>'','language-team'=>'Tiếng Việt','language'=>'vi','plural-forms'=>'nplurals=1; plural=0;','mime-version'=>'1.0','content-type'=>'text/plain; charset=UTF-8','content-transfer-encoding'=>'8bit','x-generator'=>'Loco https://localise.biz/','x-loco-version'=>'2.8.0; wp-6.7; php-8.2.12','x-domain'=>'woocommerce-products-filter','messages'=>['In stock'=>'Còn ','On sale'=>'Giảm giá
+','Search by Price'=>'Lọc theo giá']];

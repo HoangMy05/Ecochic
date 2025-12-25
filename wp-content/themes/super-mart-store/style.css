@@ -1,0 +1,348 @@
+/*
+Theme Name: Super Mart Store
+Theme URI: https://www.misbahwp.com/products/super-mart-store
+Author: misbahwp
+Author URI: https://www.misbahwp.com/
+Description: Super Mart Store is an all-in-one, SEO-advanced WordPress theme tailored for supermarkets, grocery stores, and retailers looking to generate more sales online. Its eCommerce features are powered by WooCommerce, allowing easy product management and secure payment gateways. The theme’s structured data, streamlined cart flow, and schema markup help shops rank for high-volume searches like “supermarket WordPress theme” and “online grocery store.” Rich layouts, rotating banners, dynamic product grids, and featured discount sections encourage shopping and repeat visits. Responsive and mobile-optimized design guarantees smooth experiences for buyers on any device. Benefit from customizable widgets for daily deals and seasonal promotions, plus multilingual tools for broader market reach. Review sections and CTAs build trust and guide conversions, while lightning-fast loading minimizes bounce rates. Super Mart Store is perfect for those seeking both a credible business image and technical SEO advantages that turn casual browsers into loyal shoppers.
+Version: 1.0.9
+Requires at least: 6.0
+Tested up to: 6.9
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: super-mart-store
+Tags: style-variations, one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, e-commerce, food-and-drink
+
+Super Mart Store WordPress Theme, Copyright 2024 misbahwp
+Super Mart Store is distributed under the terms of the GNU General Public License v3
+*/
+
+.wp-block-search.wp-block-search__button-only .wp-block-search__input{
+	position: absolute;;
+	right: 75px;
+	padding:13px;
+}
+form.wp-block-search__button-only.wp-block-search__icon-button.wp-block-search{
+	position: relative;
+}
+.top-header{
+	position: relative;
+}
+.header-nav {
+    position: absolute;
+    top: 0px;
+    left: 58px;
+    text-align: center;
+    width: 30%;
+    z-index: 3;
+}
+.main-header-top{
+	position: relative;
+}
+/*.logo-bg{
+    height: 56px;
+}*/
+#slider .custom-div {
+    position: absolute;
+    background-color: var(--wp--preset--color--secondary) !important;
+    -webkit-mask-image: url(assets/images/Vector.svg);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    width: 100% !important;
+    height: 87px !important;
+    object-fit: cover;
+    opacity: 1;
+    bottom: -1px;
+    z-index: 1;
+}
+.slider-content-box {
+    position: relative;
+    -webkit-mask-image: url(assets/images/banner-content.png);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    opacity: 1;
+}
+#slider .owl-nav {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    right: 14.5%;
+    left: auto;
+    z-index: 2;
+}
+#slider .owl-carousel .owl-nav .owl-prev:hover span, #slider .owl-carousel .owl-nav .owl-next:hover span{
+  color: var(--wp--preset--color--pure-black) !important;
+}
+#slider .owl-carousel .owl-nav .owl-prev:hover, #slider .owl-carousel .owl-nav .owl-next:hover{
+  background: var(--wp--preset--color--secondary-accent) !important;
+}
+#slider .owl-carousel .owl-nav .owl-prev, #slider .owl-carousel .owl-nav .owl-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  background: var(--wp--preset--color--secondary) !important;
+  border: 0px;
+}
+#slider .owl-carousel .owl-nav .owl-prev{
+  margin-right: 10px;
+}
+#slider .owl-carousel .owl-nav .owl-prev span,#slider .owl-carousel .owl-nav .owl-next span{
+  color: var(--wp--preset--color--secondary-accent) !important;
+  font-size: 21px;
+}
+.product-box{
+	position: relative;
+}
+.sale-box {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.product-image{
+	position: relative;
+}
+.product-btn{
+	position: absolute;
+	bottom: 20px;
+	opacity: 0;
+}
+.product-box:hover .product-btn{
+	opacity: 1;
+}
+.leaf-image {
+    position: relative;
+    -webkit-mask-image: url(assets/images/leaf.png);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    background: var(--wp--preset--color--primary) !important;
+    width: 30px !important;
+    object-fit: cover;
+    opacity: 1;
+    height: 30px !important;
+    z-index: 9999;
+}
+.carrot-image {
+    position: relative;
+    -webkit-mask-image: url(assets/images/carrot.png);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    background: var(--wp--preset--color--primary) !important;
+    width: 30px !important;
+    object-fit: cover;
+    opacity: 1;
+    height: 30px !important;
+    z-index: 9999;
+}
+.admin-image {
+    position: relative;
+    -webkit-mask-image: url(assets/images/admin.png);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    background: var(--wp--preset--color--primary) !important;
+    width: 25px !important;
+    object-fit: cover;
+    opacity: 1;
+    margin: 0px 3px !important;
+    height: 30px !important;
+    z-index: 9999;
+}
+.star-image {
+    position: relative;
+    -webkit-mask-image: url(assets/images/single-star.png);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    background: var(--wp--preset--color--primary) !important;
+    width: 30px !important;
+    object-fit: cover;
+    opacity: 1;
+    height: 30px !important;
+    z-index: 9999;
+}
+.blog-box{
+	position: relative;
+	text-align: center;
+	box-shadow: 0px 4px 50px 20px #00000005;
+}
+.blog-box:hover .date-box{
+	background-color: var(--wp--preset--color--secondary) !important;
+}
+.blog-box:hover .blog-btn a{
+	background-color: var(--wp--preset--color--secondary) !important;
+	color: var(--wp--preset--color--accent-text) !important;
+}
+.date-box {
+    display: inline-block;
+}
+.blog-image,.blog-image img{
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+}
+.slider-btn a:hover,.product-btn a:hover,.dynamic-product-btn button:hover {
+	background-color: var(--wp--preset--color--primary) !important;
+}
+.bk-hide-tab.bk-hide-mob.social-icon a.wp-block-social-link-anchor:hover,.social-icon ul li a:hover svg{
+	color: var(--wp--preset--color--secondary);
+	fill: var(--wp--preset--color--secondary);
+}
+.header-menu ul li a{
+	padding: 5px 20px !important;
+}
+.header-menu ul li a:hover{
+	background-color: var(--wp--preset--color--secondary) !important;
+	color: var(--wp--preset--color--accent-text) !important;
+	border-radius: 8px;
+}
+.wc-block-mini-cart.wp-block-woocommerce-mini-cart .wc-block-mini-cart__quantity-badge svg:hover{
+	fill: var(--wp--preset--color--secondary) !important;
+}
+.wc-block-components-product-sale-badge.wc-block-components-product-sale-badge--align-right.wc-block-grid__product-onsale span{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--wp--preset--color--accent-text) !important;
+}
+.wc-block-components-product-sale-badge.wc-block-components-product-sale-badge--align-right.wc-block-grid__product-onsale{
+    background-color: var(--wp--preset--color--primary) !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 12px;
+    border: 0px !important;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 0px;
+    padding-top: 3px;
+    padding-right: var(--wp--preset--spacing--x-small);
+    padding-bottom: 3px;
+    padding-left: var(--wp--preset--spacing--x-small);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.product-main li.wc-block-product{
+    position: relative;
+}
+.top-header span{
+    margin-right: 5px !important;
+}
+span.dashicons.dashicons-phone {
+    transform: rotate(92deg);
+}
+.counter-btn a:hover{
+    background-color: var(--wp--preset--color--secondary) !important;
+    border-color: var(--wp--preset--color--secondary) !important;
+}
+.blog-box p span{
+    color: var(--wp--preset--color--primary) !important;
+    margin-right: 5px !important;
+}
+.footer-main a.wp-block-social-link-anchor:hover, .footer-main ul li a:hover svg {
+    color: var(--wp--preset--color--pure-black) !important;
+    fill: var(--wp--preset--color--pure-black)  !important;
+}
+
+.gutentor-entry-meta.gutentor-entry-meta-secondary .author.vcard, .gutentor-entry-meta.gutentor-entry-meta-secondary .gutentor-meta-categories {
+    display: none !important;
+}
+
+.gutentor-image-thumb img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.gutentor-entry-meta.gutentor-entry-meta-secondary .posted-on:before,
+.gutentor-entry-meta.gutentor-entry-meta-secondary .posted-on i,
+.gutentor-entry-meta.gutentor-entry-meta-secondary .comments-link{
+    display: none !important;
+}
+
+.blog-post-section .gutentor-post-item{
+    background-color: var(--wp--preset--color--accent-text) !important;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 4px 50px 20px #00000005;
+    border-radius: 12px;
+    padding: 10px 20px;
+    padding-top: 0px;
+}
+.blog-post-section .gutentor-post-item .gutentor-entry-meta.gutentor-entry-meta-secondary .posted-on{
+    margin-right: 10px !important;
+    padding-right: 0px !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--wp--preset--color--accent-text) !important;
+}
+.blog-post-section .gutentor-post-item .gutentor-entry-meta.gutentor-entry-meta-secondary {
+    display: inline-block;
+    border-bottom-right-radius: 30px;
+    background-color: var(--wp--preset--color--primary) !important;
+    padding-top: 12px;
+    padding-right: 25px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+}
+
+.blog-post-section .gutentor-post-item h3.gutentor-post-title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: var(--wp--preset--font-family--amatic-sc) !important;
+    color: var(--wp--preset--color--pure-black) !important;
+}
+.blog-post-section .gutentor-post-item .gutentor-post-desc {
+    color: #000000bf;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: var(--wp--preset--font-family--dm-sans) !important;
+}
+.blog-post-section .gutentor-post-item .gutentor-entry-meta.gutentor-entry-meta-primary a {
+    color: #00000061;
+    font-size: 12px;
+    font-style: normal;
+    font-family: var(--wp--preset--font-family--dm-sans) !important;
+    font-weight: 600;
+}
+.blog-post-section .gutentor-post-item .gutentor-entry-meta.gutentor-entry-meta-primary i{
+    color: var(--wp--preset--color--primary) !important;
+}
+.blog-post-section .gutentor-post-item a.gutentor-button.gutentor-post-button {
+    border: 1px solid var(--wp--preset--color--secondary) !important;
+    font-family: var(--wp--preset--font-family--dm-sans) !important;
+    background-color: var(--wp--preset--color--transparent) !important;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+    color: var(--wp--preset--color--secondary) !important;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.blog-post-section .gutentor-post-item:hover .gutentor-entry-meta.gutentor-entry-meta-secondary{
+    background-color: var(--wp--preset--color--secondary) !important;
+}
+.blog-post-section .gutentor-post-item:hover a.gutentor-button.gutentor-post-button{
+    background-color: var(--wp--preset--color--secondary) !important;
+    color: var(--wp--preset--color--accent-text) !important;
+}
+
+.blog-post-section{
+    margin-bottom: 50px !important;
+}
